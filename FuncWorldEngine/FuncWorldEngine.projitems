@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>662ba585-0f48-49d4-a665-50e8f4802ce7</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>FuncWorldEngine</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Camera.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CameraController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Game.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InputManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mesh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ShaderManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Vertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Voxel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VoxelMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Window.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)2D\" />
+  </ItemGroup>
+</Project>
